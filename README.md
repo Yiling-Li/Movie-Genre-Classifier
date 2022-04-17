@@ -246,5 +246,3 @@ Stella Song 1002639380
 * README:
     * Data
 
-
-###### tags: `Movie Genre` `Classification` `Deep Learning`
