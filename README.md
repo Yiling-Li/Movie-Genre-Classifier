@@ -1,15 +1,33 @@
----
-title: 'CSC413 - Final Project'
-disqus: hackmd
----
-
 Movie Genre Classifier
 ===
 
 
 ## Table of Contents
 ---
-[TOC]
+- [Movie Genre Classifier](#movie-genre-classifier)
+  * [Table of Contents](#table-of-contents)
+  * [Introduction](#introduction)
+  * [Model](#model)
+    + [Model Architecture](#model-architecture)
+    + [Parameters in the Model](#parameters-in-the-model)
+    + [Model Performance](#model-performance)
+  * [Data](#data)
+    + [Data Source](#data-source)
+    + [Data Summary](#data-summary)
+    + [Data Transformation](#data-transformation)
+    + [Data Split](#data-split)
+  * [Training](#training)
+    + [Training curve of Model](#training-curve-of-model)
+    + [Hyper-parameters Tuning](#hyper-parameters-tuning)
+  * [Results](#results)
+    + [Quantitative Measurements used for Evaluation](#quantitative-measurements-used-for-evaluation)
+    + [Quantitative results](#quantitative-results)
+    + [Qualitative results](#qualitative-results)
+    + [Justification for Model Performance](#justification-for-model-performance)
+  * [Ethical Consideration](#ethical-consideration)
+    + [Limitation of Data](#limitation-of-data)
+    + [Limitation of Model](#limitation-of-model)
+  * [Authors](#authors)
 
 ## Introduction
 ---
