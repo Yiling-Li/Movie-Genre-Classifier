@@ -113,13 +113,12 @@ For each genre, we divided 60% of the data for the training set, 20% of the data
 
 ### Training curve of Model
 
-Top 5 genres model:
 ![](https://i.imgur.com/2LlIlbY.png)
 
 ![](https://i.imgur.com/mU9luJw.png)
 
 ### Hyper-parameters Tuning
-5 genres:
+
 * For hyperparameter batch_size= 1,weight_decay=0, learning_rate=0.1, num_epochs=10, the improvement of training accuracy and validation accuracy is small and both of them end with a low accuracy. The model tends to underfitting to the data, with only 62% as training accuracy and 25% as validation accuracy. It does not capture enough features of the data and the model is quite simple.
 * For hyperparameter batch_size= 1,weight_decay=0, learning_rate=0.001, num_epochs=10, the improvement of training accuracy is large, but not for the validation accuracy. The model tends to overfitting to the data, with 100% as training accuracy but only 30% as validation accuracy. It capture too many features of the training dataset and the model is complex and does not generalize. There is a quite large difference between training and validation accuracy. 
 
