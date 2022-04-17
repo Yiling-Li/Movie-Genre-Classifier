@@ -127,10 +127,8 @@ For each genre, we divided 60% of the data for the training set, 20% of the data
 
 ### Quantitative Measurements used for Evaluation
 
-The quantitative measure used to assess the result was a simple Classification Accuracy, given by:
-\begin{aligned}
- \text{Accuracy} = \frac{\text{Number of correct predictions}}{\text{Total Number of predictions}} 
-\end{aligned}
+The quantitative measure used to assess the result was a simple Classification Accuracy, given by: \newline
+![](https://imgur.com/GL2ibAZ.png)
 This measure is a reasonable method to evaluate a classification problem with an equal number of data belonging to every class; in the Data Pre-Processing step, it is mentioned that the data used for this project takes care of imbalances in classes.
 
 The model gives a probability distribution of the prediction for a particular data point, and we choose the prediction with the highest probability as our prediction. The prediction is then compared to the actual class; if it is correct, the total number of correct predictions is incremented by one.
